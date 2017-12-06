@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Yatmdb vandenryse</string>
+    <string name="title_popular">PopularD</string>
+    <string name="title_playingnow">Now PlayingD</string>
+    <string name="title_bestmark">Best MarkD</string>
+    <string name="frenchword">FrenchD</string>
+    <string name="englishword">EnglishD</string>
+    <string name="apply">ApplyD</string>
+    <string name="language">LanguageD</string>
+    <string name="title_activity_movie">MovieD</string>
+    <string name="return_bt">Return</string>
+    <string name="fav_tb">Favorite</string>
+    <string name="movie">movie</string>
+    <string name="tvshow">tvshow</string>
+    <string name="categoryChoice">Choose your category</string>
+    <string name="currentMode">The current category is</string>
+    <string name="clear">Clear</string>
+    <string name="backdropSize">Backdrop\'s size</string>
+    <string name="posterSize">Poster\'s size</string>
+    <string name="preferencesFile">preferenceFile</string>
+    <string name="favoriteFile">favoriteFile</string>
+    <string name="savedPosterSize">posterSize</string>
+    <string name="savedBackdropSize">backdropSize</string>
+    <string name="savedLocale">localeSaved</string>
+    <string name="savedFavorite">savedFavorite</string>
+    <string name="share">Share</string>
+    <string name="prepath_youtube">https://www.youtube.com/watch?v=</string>
+    <string name="shareMessage">I think you will be interested about this</string>
+    <string name="savedCache">savedCache</string>
+
+</resources>

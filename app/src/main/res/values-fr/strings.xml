@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Yatmdb vandenryse</string>
+    <string name="title_popular">Populaire</string>
+    <string name="title_playingnow">En ce moment</string>
+    <string name="title_bestmark">Meilleurs Notes</string>
+    <string name="frenchword">Français</string>
+    <string name="englishword">Anglais</string>
+    <string name="apply">Appliquer</string>
+    <string name="language">Langage</string>
+    <string name="title_activity_movie">Film</string>
+    <string name="return_bt">Retour</string>
+    <string name="fav_tb">Favoris</string>
+    <string name="movie">Film</string>
+    <string name="tvshow">Séries</string>
+    <string name="categoryChoice">Choisissez votre catégorie</string>
+    <string name="currentMode">"La catégorie actuelle est "</string>
+    <string name="clear">Vider</string>
+    <string name="backdropSize">Taille des backdrops</string>
+    <string name="posterSize">Taille des posters</string>
+    <string name="share">Partager</string>
+    <string name="shareMessage">Je pense que ça va t\'intéresser</string>
+</resources>
