@@ -12,7 +12,11 @@
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66bb1c01-d2e2-4bad-8b0a-93afb8f43813" name="Default" comment="" />
+    <list default="true" id="66bb1c01-d2e2-4bad-8b0a-93afb8f43813" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vincent/yatmdbvandenryse/activities/movieActivity/MovieActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vincent/yatmdbvandenryse/activities/movieActivity/MovieActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_movie.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_movie.xml" />
+    </list>
     <ignored path="Yatmdb vandenryse.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +58,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vincent/yatmdbvandenryse/activities/mainActivity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1248">
+            <state relative-caret-position="738">
               <caret line="269" column="36" selection-start-line="269" selection-start-column="36" selection-end-line="269" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -80,14 +84,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MovieActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vincent/yatmdbvandenryse/activities/movieActivity/MovieActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="207" column="52" selection-start-line="207" selection-start-column="52" selection-end-line="207" selection-end-column="52" />
+            <state relative-caret-position="60">
+              <caret line="212" column="27" selection-start-line="212" selection-start-column="27" selection-end-line="212" selection-end-column="27" />
               <folding>
-                <element signature="e#6834#6869#0" expanded="true" />
-                <element signature="e#7348#7381#0" expanded="true" />
+                <element signature="e#6908#6943#0" expanded="true" />
+                <element signature="e#7422#7455#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,7 +159,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_movie.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_movie.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_movie.xml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -2765,7 +2769,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1282" height="773" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.49027553" order="7" side_tool="false" content_ui="tabs" />
@@ -3223,20 +3227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vincent/yatmdbvandenryse/activities/mainActivity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="269" column="36" selection-start-line="269" selection-start-column="36" selection-end-line="269" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1459#2222#0" expanded="true" />
-            <element signature="e#2221#2222#0" expanded="true" />
-            <element signature="e#5502#5652#0" expanded="true" />
-            <element signature="e#5651#5652#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vincent/yatmdbvandenryse/activities/mainActivity/PopularAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4418">
@@ -3252,13 +3242,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vincent/yatmdbvandenryse/activities/movieActivity/MovieActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vincent/yatmdbvandenryse/activities/mainActivity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="207" column="52" selection-start-line="207" selection-start-column="52" selection-end-line="207" selection-end-column="52" />
+        <state relative-caret-position="738">
+          <caret line="269" column="36" selection-start-line="269" selection-start-column="36" selection-end-line="269" selection-end-column="36" />
           <folding>
-            <element signature="e#6834#6869#0" expanded="true" />
-            <element signature="e#7348#7381#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1459#2222#0" expanded="true" />
+            <element signature="e#2221#2222#0" expanded="true" />
+            <element signature="e#5502#5652#0" expanded="true" />
+            <element signature="e#5651#5652#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3272,6 +3265,17 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vincent/yatmdbvandenryse/activities/movieActivity/MovieActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="212" column="27" selection-start-line="212" selection-start-column="27" selection-end-line="212" selection-end-column="27" />
+          <folding>
+            <element signature="e#6908#6943#0" expanded="true" />
+            <element signature="e#7422#7455#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

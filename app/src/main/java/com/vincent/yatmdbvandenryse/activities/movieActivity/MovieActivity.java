@@ -1,5 +1,6 @@
 package com.vincent.yatmdbvandenryse.activities.movieActivity;
 
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 
@@ -7,6 +8,7 @@ import com.vincent.yatmdbvandenryse.api.ViewLink;
 import com.vincent.yatmdbvandenryse.api.model.Configuration;
 
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -212,7 +214,47 @@ public class MovieActivity extends AppCompatActivity {
         editor.commit();
     }
 
+    void video(View v)
+    {
+        tmdbAPI api = new tmdbAPI();
 
+
+        Callback callback = new Callback<Result<Video>>() {
+            @Override
+            public void onResponse(Call<Result<Video>> call, Response<Result<Video>> response) {
+                String key;
+                if(response.body().getResults().size()>0)
+                {
+                    key = response.body().getResults().get(0).getKey();
+                    watchYoutubeVideo(getBaseContext(),key);
+                }
+                else
+                    Toast.makeText(MovieActivity.this, "Oups Pas de vidéo trouvée", Toast.LENGTH_SHORT).show();
+
+
+            }
+
+            @Override
+            public void onFailure(Call<Result<Video>> call, Throwable t) {
+                Toast.makeText(MovieActivity.this, "Problème lors de l'appel a l'API", Toast.LENGTH_SHORT).show();
+            }
+        };
+        if (viewLink.getUId().contains("M") )
+            api.getServiceApi().getMovieVideo(viewLink.getId(),locale.toString()).enqueue(callback);
+        else if (viewLink.getUId().contains("T"))
+            api.getServiceApi().getTvVideo(viewLink.getId(),locale.toString()).enqueue(callback);
+    }
+
+    public static void watchYoutubeVideo(Context context, String id){
+        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:" + id));
+        Intent webIntent = new Intent(Intent.ACTION_VIEW,
+                Uri.parse("http://www.youtube.com/watch?v=" + id));
+        try {
+            context.startActivity(appIntent);
+        } catch (ActivityNotFoundException ex) {
+            context.startActivity(webIntent);
+        }
+    }
 
     void finish(View v)
     {
