@@ -19,4 +19,5 @@
     <string name="posterSize">Taille des posters</string>
     <string name="share">Partager</string>
     <string name="shareMessage">Je pense que ça va t\'intéresser</string>
+    <string name="dataBase">Base de donnée utilisée TMDB</string>
 </resources>

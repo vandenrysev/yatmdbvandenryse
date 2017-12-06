@@ -27,5 +27,9 @@
     <string name="prepath_youtube">https://www.youtube.com/watch?v=</string>
     <string name="shareMessage">I think you will be interested about this</string>
     <string name="savedCache">savedCache</string>
+    <string name="dev">Vincent Vandenryse</string>
+    <string name="devmail">vincent@vandenryse.ovh</string>
+    <string name="picasso">Librairie Image Picasso</string>
+    <string name="dataBase">Used DataBase TMDB</string>
 
 </resources>

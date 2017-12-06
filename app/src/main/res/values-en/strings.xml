@@ -19,5 +19,6 @@
     <string name="posterSize">Poster\'s size</string>
     <string name="share">Share</string>
     <string name="shareMessage">I think you will be interested about this</string>
+    <string name="dataBase"></string>
 
 </resources>
